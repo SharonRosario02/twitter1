@@ -1,0 +1,20 @@
+body{
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+
+.app{
+  display: flex;
+  height: 1000px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .app{
+    display: block;
+  }
+}
+
